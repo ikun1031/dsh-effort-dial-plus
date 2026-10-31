@@ -60,5 +60,14 @@
     "permissions": {
       "network": []
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikun1031/dsh-effort-dial-plus.git"
+  },
+  "homepage": "https://github.com/ikun1031/dsh-effort-dial-plus#readme",
+  "bugs": {
+    "url": "https://github.com/ikun1031/dsh-effort-dial-plus/issues"
+  },
+  "author": "ikun1031"
 }
