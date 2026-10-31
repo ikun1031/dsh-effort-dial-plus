@@ -1,0 +1,5 @@
+# Effort Dial Plus bundle patch: one host row over the web profile.
+# The row loads the empty host half; the browser half arrives through `dsh.client`.
+- insert:
+    - id: effort-dial-plus
+      name: dsh-effort-dial-plus
