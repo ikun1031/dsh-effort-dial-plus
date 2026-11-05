@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Codex-style reasoning-effort card with a bolt glyph, the max-level quota warning, per-level accent colors and flowing energy particles. · 融合版推理强度卡片：Codex 式闪电与顶档警告、逐档变色、最高档流动粒子。",
+  "description": "Codex-style reasoning-effort card for the composer: one control for model and effort, a quota hint on the top level, per-level accent colors and flowing particles. · 输入框里的 Codex 风格推理强度卡片：一个控件管模型与档位，逐档变色，最高档带额度提示与流动粒子。",
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
@@ -49,7 +49,7 @@
   "dshhub": {
     "schemaVersion": 1,
     "displayName": "Effort Dial Plus",
-    "summary": "融合 dsh-effort-dial 与 reasoning-slider：Codex 卡片结构、闪电图标、顶档「更快消耗使用额度」提示、档位变色联动，最高档带蓝紫渐变与流动粒子。",
+    "summary": "输入框里的推理强度卡片：一个控件同时管模型和档位，最高档显示额度提示并切换蓝紫渐变与流动粒子，颜色跟随主题。",
     "categories": [
       "Web UI",
       "模型"
