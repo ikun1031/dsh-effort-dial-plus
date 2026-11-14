@@ -1,6 +1,6 @@
 {
   "name": "dsh-effort-dial-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "Codex-style reasoning-effort card for the composer: one control for model and effort, a quota hint on the top level, per-level accent colors and flowing particles. · 输入框里的 Codex 风格推理强度卡片：一个控件管模型与档位，逐档变色，最高档带额度提示与流动粒子。",
