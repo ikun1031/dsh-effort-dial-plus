@@ -20,6 +20,9 @@ window.__ModuleLoader__.load({
   id: 'dsh-effort-dial-plus',
   factory(require) {
     const React = require('react')
+    // DSH 0.2.2 dockets the composer, so a fixed overlay rendered inside the slot
+    // would be clipped/scaled by that container. The panel is portaled to <body>.
+    const ReactDOM = require('react-dom')
     const module = { exports: {} }
     const exports = module.exports
 
@@ -1149,7 +1152,9 @@ window.__ModuleLoader__.load({
       },
       React.createElement('div', { className: 'edp-body', ref: bodyRef }, dialView, modelsView))
 
-      return React.createElement(React.Fragment, null, trigger, panel)
+      return React.createElement(React.Fragment, null,
+        trigger,
+        ReactDOM.createPortal(panel, document.body))
     }
 
     exports.name = PLUGIN_NAME
